@@ -1,0 +1,15 @@
+com\gyzer\legendary\dailyshop\Menus\ShopMenu.class
+com\gyzer\legendary\dailyshop\cmd\command.class
+com\gyzer\legendary\dailyshop\Database\Config.class
+com\gyzer\legendary\dailyshop\Utils\PlayerDataUtils.class
+com\gyzer\legendary\dailyshop\Database\MenuRead.class
+com\gyzer\legendary\dailyshop\LegendaryDailyShop.class
+com\gyzer\legendary\dailyshop\LegendaryDailyShop$2.class
+com\gyzer\legendary\dailyshop\LegendaryDailyShop$1.class
+com\gyzer\legendary\dailyshop\Utils\ShopUtils.class
+com\gyzer\legendary\dailyshop\Utils\MsgUtils.class
+com\gyzer\legendary\dailyshop\Utils\sealizedUtils.class
+com\gyzer\legendary\dailyshop\Menus\DeleteMenu.class
+com\gyzer\legendary\dailyshop\EventManager\Click.class
+com\gyzer\legendary\dailyshop\Database\PlayerData.class
+com\gyzer\legendary\dailyshop\EventManager\Join.class

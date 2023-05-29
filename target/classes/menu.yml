@@ -1,0 +1,46 @@
+title: '&6&l每日幸运商店'
+size: 54
+#商品出现的位置
+layout: [20,22,24,29,31,33]
+#lore变量部分
+placeholder:
+  type:
+    buy: '&a购买'
+    sell: '&c出售'
+  rarity:
+    common: '&f普通商品'
+    rare: '&#00FF7F稀有商品'
+    epic: '&#8A2BE2史诗商品'
+    legendary: '&#FF4040&l传说商品'
+  currency:
+    vault: '游戏币'
+    points: '点券'
+  limit:
+    buy: '&e限购: &#E0FFFF%player_buy%/%limit%'
+    sell: '&e限售: &#E0FFFF%player_sell%/%limit%'
+  #商品的lore排版
+  shopItemLoreFormat:
+    - '%lore%'
+    - '&f '
+    - '&f&l< %placeholder_rarity% &f&l>'
+    - '&e类型: %placeholder_type%'
+    - '&e单价: &#E0FFFF %price% %currency%'
+    - '%placeholder_limit%'
+#装饰部分
+customItem:
+  i1:
+    material: BROWN_STAINED_GLASS_PANE
+    data: 0
+    model: 0
+    display: ''
+    lore:
+      - ''
+    slot: [0,8,45,53]
+  i2:
+    material: BLACK_STAINED_GLASS_PANE
+    data: 0
+    model: 0
+    display: ''
+    lore:
+      - ''
+    slot: [1,2,3,4,5,6,7,52,51,50,49,48,47,46]
