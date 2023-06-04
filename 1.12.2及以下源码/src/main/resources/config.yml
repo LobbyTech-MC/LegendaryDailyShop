@@ -1,0 +1,47 @@
+set:
+  #各个稀有级别的刷新几率相关设置
+  rarity:
+    common:
+      #刷新几率
+      chance: 0.7
+      #该级别商品最多出现的数量
+      max: 100
+    rare:
+      chance: 0.1
+      max: 3
+    epic:
+      chance: 0.05
+      max: 2
+    legendary:
+      chance: 0.01
+      max: 1
+  #玩家今日首次进服发送玩家信息
+  tips:
+    #当今日商店内出现 common 的商品时候
+    common:
+      #是否启用
+      enable: false
+      msg: '今日幸运商店内出现 %amount% 个普通级别的商品！'
+    rare:
+      #是否启用
+      enable: false
+      msg: '今日幸运商店内出现 %amount% 个稀有级别的商品！'
+    epic:
+      #是否启用
+      enable: true
+      msg: '&a今日幸运商店内出现 &e%amount% &a个 &#8A2BE2史诗级 &a别的商品！'
+    legendary:
+      #是否启用
+      enable: true
+      msg: '&a今日幸运商店内出现 &e%amount% &a个 &#FF4040&l传说级 &a别的商品！'
+lang:
+  plugin: '&b&lLegendaryD&3&lailyShop &b'
+  nopermission: '你没有打开商店的权限'
+  buy_Vault: '你花费了 &a%price%游戏币 &#EEE8AA购买了 &e%display%'
+  buy_PlayerPoints: '你花费了 &a%price%点券 &#EEE8AA购买了 &e%display%'
+  sell_Vault: '你出售 %display% ×%amount% &#EEE8AA获得了 &a%price%游戏币'
+  sell_PlayerPoints: '你出售 %display% ×%amount% &#EEE8AA获得了 &a%price%点券'
+  cant_noItem: '你背包内缺少 &f%display% &e×%amount%'
+  cant_noVault: '你的游戏币不足 %price%'
+  cant_noPlayerPoints: '你的点券不足 %price%'
+  cant_limit: '你无法再购买或出售该商品了！'

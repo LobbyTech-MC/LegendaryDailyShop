@@ -1,0 +1,9 @@
+name: LegendaryDailyShop
+main: com.gyzer.legendary.dailyshop.LegendaryDailyShop
+version: 1.0
+api-version: 1.13
+depend:
+  - Vault
+  - PlayerPoints
+commands:
+  lshop:
